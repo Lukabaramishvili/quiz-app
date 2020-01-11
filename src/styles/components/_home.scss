@@ -10,6 +10,7 @@
 
   section {
     background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
     padding-left: $md;
     padding-right: $md;
     height: 80%;
@@ -44,13 +45,13 @@
   }
 
   a.play-button:hover {
-    background-color: darken($green, 20%)
+    background-color: darken($green, 20%);
   }
 
   .auth-container {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: $md;
   }
 
@@ -77,5 +78,13 @@
     text-align: center;
     transition: 0.3s linear all;
     width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  #home section {
+    padding: 0 $normal;
+    width: 100%;
+    height: 100%;
   }
 }

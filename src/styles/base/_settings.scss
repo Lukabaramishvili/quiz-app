@@ -6,6 +6,8 @@ $quicksand:'Quicksand', sans-serif;
 
 $orange: #ffa500;
 $off-white: #f8f8f8;
+$white: #fff;
+$off-black: #333;
 $green: #57b846;
 $red: #ea4355;
 $blue: #1da1f2;
@@ -22,3 +24,10 @@ $xxlg: 7rem;
 
 //Button Radius
 $button-radius: 30px;
+
+
+//Breakpoints
+$lg-breakpoint: 1024px;
+$md-breakpoint: 768px;
+$sm-breakpoint: 641px;
+$xs-breakpoint: 480px;
